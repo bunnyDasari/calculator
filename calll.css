@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .container {
-    background-color: floralwhite;
+    background-image: url('https://www.paintzen.com/wp-content/uploads/2020/10/ppg-seaspray-paintzen.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
     align-items: center;
-    margin: 20px;
+
 }
 
 .para {
@@ -27,6 +27,7 @@
     background-color: black;
     color: white;
     border-radius: 5px;
+
 }
 
 .pee {
@@ -34,13 +35,48 @@
 }
 
 .input {
-    height: 20px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border-width: 0px;
 }
 
-.classCont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (min-width:768px) {
+    .input {
+        height: 70px;
+        width: 200px;
+        border-radius: 30px;
+        border-width: 0px;
+        margin: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        background-image: url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-piglet.png');
+
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+
+
+    }
+
+    .h1 {
+        font-size: 50px;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+.h1 {
+    font-size: 25px;
+    padding: 5px;
 }
